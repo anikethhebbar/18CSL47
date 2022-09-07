@@ -16,7 +16,7 @@ public class Lab3b {
 		String name=sc.next();
 		System.out.println("Enter dob in dd/mm/yyyy: ");
 		String date=sc.next();
-		Lab3b d = new dateofb();
+		var d = new Lab3b();
 		d.rd(name, date);
 	
 	}
